@@ -55,13 +55,18 @@ export const Container = styled.form`
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
+`;
 
-   button{
-       height: 4rem;
+interface RadioBoxProps{
+    isActive: boolean;
+}
+
+export const RadioBox = styled.button<RadioBoxProps>`
+    height: 4rem;
        border: 1px solid #d7d7d7;
        border-radius: 0.25rem;
 
-       background-color: transparent;
+       background-color: ${(props) => props.isActive ? '#ccc' : 'trasparent'};
 
        display: flex;
        align-items: center;
@@ -83,6 +88,5 @@ export const Container = styled.form`
            margin-left: 1rem;
            font-size: 1rem;
            color: var(--text-title);
-       }
-   } 
+       } 
 `;
