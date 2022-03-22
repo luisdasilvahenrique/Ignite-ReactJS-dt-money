@@ -49,7 +49,9 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
                 onClick={() => { setType('deposit'); }}
                 isActive={type === 'deposit'}
                 >
-                    <img src={incomeImg} alt="Entrada de valor" />
+                    <img 
+                    src={incomeImg} 
+                    alt="Entrada de valor" />
                     <span>Entrada</span>
                 </RadioBox>
 
