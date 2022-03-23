@@ -9,8 +9,10 @@ interface NewTransactionModalProps{
 
     isOpen: boolean;
     onRequestClose: () => void;
-
 }
+
+
+
 export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModalProps){
     
     const [type, setType] = useState('deposit');
@@ -47,6 +49,7 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
                 type="button"
                 onClick={() => {setType('deposit')}}
                 isActive={type === 'deposit'}
+                activeColor="green"
                 >
                     <img src={incomeImg} alt="Entrada de valor" />
                     <span>Entrada</span>
@@ -56,6 +59,7 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
                 type="button"
                 onClick={() => {setType('withrow')}}
                 isActive={type === 'withrow'}
+                activeColor="red"
                 >
                     <img src={outcomeImg} alt="Saida de valor" />
                     <span>Saida</span>
