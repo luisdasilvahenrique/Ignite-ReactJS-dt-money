@@ -1,9 +1,13 @@
 import { Container } from "./styles";
-
+import React, {useContext} from "react";
 import incomesImg from '../../assets/income.svg'
 import outcomeImg from '../../assets/outcome.svg'
 import totalImg from '../../assets/total.svg'
+import { TransactionContext } from "../../TransactionContext";
+
 export function Summary(){
+    const data = useContext(TransactionContext);
+
     return(
        <Container>
            <div>
