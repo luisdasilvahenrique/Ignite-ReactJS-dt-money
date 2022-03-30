@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 import { TransactionContext } from "./TransactionContext";
+=======
+import { TransactionsContext, TransactionsProvider} from "./TransactionsContext";
+>>>>>>> Stashed changes
 import { Header } from "./components/Header";
 import { Dashboard } from "./components/Dashboard";
 import Modal from "react-modal";
@@ -21,7 +25,11 @@ export function App() {
     }
 
   return (
+<<<<<<< Updated upstream
     <TransactionContext.Provider value={[]}>
+=======
+    <TransactionsProvider>
+>>>>>>> Stashed changes
       <Header onOpenNewlTransactionModal={handleOpenNewTransactionModal} />
       
       <Dashboard />
@@ -32,7 +40,11 @@ export function App() {
        onRequestClose={handleCloseNewTransactionModal}
       />
       <GlobalStyle />
+<<<<<<< Updated upstream
     </TransactionContext.Provider>
+=======
+    </TransactionsProvider>
+>>>>>>> Stashed changes
   );
 }
 

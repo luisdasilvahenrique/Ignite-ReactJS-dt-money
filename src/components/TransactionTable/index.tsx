@@ -1,7 +1,12 @@
+<<<<<<< Updated upstream
 import { useContext, useEffect, useState } from "react";
 
 import { api } from "../../services/api";
 import { TransactionContext } from "../../TransactionContext";
+=======
+import { useContext} from "react";
+import { TransactionsContext } from "../../TransactionsContext";
+>>>>>>> Stashed changes
 
 import { Container } from "./styles";
 
@@ -15,6 +20,7 @@ interface Transaction {
 }
 
 export function TransactionTable() {
+<<<<<<< Updated upstream
   const data = useContext(TransactionContext);
   const [transactions, setTransactions] = useState<Transaction[]>([]);
 
@@ -24,6 +30,10 @@ export function TransactionTable() {
       .then((response) => setTransactions(response.data.transactions));
   }, []);
 
+=======
+  
+  const {transactions} = useContext(TransactionsContext);
+>>>>>>> Stashed changes
   return (
     <Container>
       <table>

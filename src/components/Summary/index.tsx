@@ -3,11 +3,16 @@ import React, {useContext} from "react";
 import incomesImg from '../../assets/income.svg'
 import outcomeImg from '../../assets/outcome.svg'
 import totalImg from '../../assets/total.svg'
-import { TransactionContext } from "../../TransactionContext";
+import { TransactionsContext } from "../../TransactionsContext";
 
 export function Summary(){
+<<<<<<< Updated upstream
     const data = useContext(TransactionContext);
 
+=======
+    const {transactions} = useContext(TransactionsContext);
+    
+>>>>>>> Stashed changes
     return(
        <Container>
            <div>
