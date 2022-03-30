@@ -6,13 +6,8 @@ import totalImg from '../../assets/total.svg'
 import { TransactionsContext } from "../../TransactionsContext";
 
 export function Summary(){
-<<<<<<< Updated upstream
-    const data = useContext(TransactionContext);
-
-=======
     const {transactions} = useContext(TransactionsContext);
-    
->>>>>>> Stashed changes
+    console.log(transactions)
     return(
        <Container>
            <div>
