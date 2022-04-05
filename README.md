@@ -15,7 +15,7 @@
 <br>
 
 <p align="center">
-  <img alt="dt.money" src="../Ignite-ReactJS-lh-money/src/assets/dtmoney.png" width="100%">
+  <img alt="dt.money" src="https://github.com/luisdasilvahenrique/Ignite-ReactJS-lh-money/blob/master/src/assets/dtmoney.png" width="100%">
 </p>
 
 ## Start 
