@@ -1,9 +1,11 @@
 import { Container } from "../TransactionTable/styles";
 import { useTransactions } from "../../hooks/useTransactions";
+import  { FiTrash }  from 'react-icons/fi'
+
 
 export function TransactionsTable() {
-  const  {transactions}  = useTransactions();
-
+  const  {transactions }  = useTransactions();
+    
   return (
     <Container>
       <table>

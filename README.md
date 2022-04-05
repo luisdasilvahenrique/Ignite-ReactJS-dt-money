@@ -1,46 +1,45 @@
-# Começando com Create React App
+<h1 align="center">
+  <img alt="dt.money" title="dtmoney" src="https://dtmoney-ignite.netlify.app/static/media/logo.614d71d1.svg" width="220px" />
+</h1>
 
-Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-## Scripts Disponíveis
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
+</p>
 
-No diretório do projeto, você pode executar:
+<br>
 
-### `npm start`
+<p align="center">
+  <img alt="dt.money" src="../Ignite-ReactJS-lh-money/src/assets/dtmoney.png" width="100%">
+</p>
 
-Executa o aplicativo no modo de desenvolvimento.\
-Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
+## Start 
+- Install - `yarn install`
+- Sempre verificar se o node e react estão instalados!
+- Run - `yarn start`
+## 🚀 Tecnologias
 
-A página será recarregada se você fizer edições.\
-Você também verá erros de lint no console.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### `teste npm`
+- ReactJs 
+- Typescript
+- React Hooks
+- Styled Components
+- MirageJs
 
-Inicia o executor de teste no modo de exibição interativa.\
-Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
+## 💻 Projeto
 
-### `npm executar compilação`
+O **dt.money** é uma aplicação voltada para o controle financeiro no qual o seu principal objetivo é ajudar o usuário a manter seus ``gastos`` e ``ganhos`` sempre anotados em uma aplicação simples.
 
-Compila o aplicativo para produção na pasta `build`.\
-Ele agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
+## :memo: Licença
 
-A compilação é reduzida e os nomes dos arquivos incluem os hashes.\
-Seu aplicativo está pronto para ser implantado!
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
-Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
+---
 
-### `npm run eject`
-
-**Nota: esta é uma operação unidirecional. Depois de 'ejetar', você não pode voltar!**
-
-Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, poderá `ejetar` a qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
-
-Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc) diretamente em seu projeto para que você tenha controle total sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão, mas eles apontarão para os scripts copiados para que você possa ajustá-los. Neste momento você está por sua conta.
-
-Você não precisa usar `eject`. O conjunto de recursos com curadoria é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estiver pronto para isso.
-
-## Saber mais
-
-Você pode aprender mais na [documentação Criar aplicativo React](https://facebook.github.io/create-react-app/docs/getting-started).
-
-Para aprender o React, confira a [documentação do React](https://reactjs.org/).
+Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
